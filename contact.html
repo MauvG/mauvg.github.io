@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+
+        <title>Contact</title>
+    </head>
+    <body>
+        <div id="page-loader"></div>
+        <div class="backgroundImage">
+
+            <div class="top1 center2 infront">
+                <ul class="nav">
+                    <li class="ms-3 widgets border border-white rounded border-size nav-item">
+                    <a class="nav-link text2" href="index.html">Home</a>
+                    </li>
+                    <li class="ms-3 widgets border border-white rounded border-size nav-item">
+                        <a class="nav-link text2" href="about.html">About</a>
+                    </li>
+                    <li class="ms-3 widgets border border-white rounded border-size nav-item">
+                        <a class="nav-link text2" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact-box">
+                <form action="https://formsubmit.co/cd75219f198a1f4eb187283987f07c48" method="POST">
+                    <H3>Contact</H3>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:8080/index.html">
+
+                    <input type="text" name="name" class="input-field" placeholder="Name">
+                    <input type="email" name="email" class="input-field" placeholder="Email" required>
+                    <input type="text" name="subject" class="input-field" placeholder="Subject">
+                    <textarea name="message" class="input-field text-field" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+
+                </form>
+            </div>
+
+        </div>
+
+        <script>
+            var loader = document.getElementById("page-loader");
+            window.addEventListener("load", function() {
+                loader.style.display = "none";
+            })
+        </script>
+
+    </body>
+
+</html>
