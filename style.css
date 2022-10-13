@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundImage {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.6)) , url(background.jpg);
+}
+
+#page-loader {
+    background: #333333 url(loading.gif) no-repeat center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;;
+    position: fixed;
+    z-index: 100;
+}
+
+.centre1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center2 {
+    position: absolute:
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.border-size {
+    width: 100px !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .border-size {
+        display: inline-block;
+        width: 90vw !important;
+    }
+}
+
+.icons {
+    font-size: 4vw;
+    color: #ffffff;
+    text-decoration: none
+  }
+
+.icons:hover{
+    color: #0093a1;
+}
+
+@media screen and (max-width: 1000px) {
+    .icons {
+        font-size: 10vw;
+    }
+}
+
+.heading1 {
+    color: #ffffff;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.heading2 {
+    color: #ffffff;
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+.text1 {
+    color: #ffffff;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.text2 {
+    color: #ffffff;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.text2:hover {
+    color: #000000;
+}
+
+.widgets {
+}
+
+.widgets:hover {
+    background-color: #ffffff;
+}
+
+.text3 {
+    color: #ffffff;
+    font-size: 1.3vw;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1000px) {
+    .text3 {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .text3 {
+        font-size: 4vw;
+    }
+}
+
+.text4 {
+    color: #ffffff;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .heading1 {
+        font-size: 6.5vw;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .text1 {
+        font-size: 5vw;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .text2 {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .text4 {
+        font-size: 4vw;
+    }
+}
+
+.top1 {
+    top: 5%!important;
+}
+
+@media screen and (max-width: 1000px) {
+    .top1 {
+        top: 12%!important;
+    }
+}
+
+.top2 {
+    top: 20%!important;
+}
+
+.bottom1 {
+    top: 85%!important;
+}
+
+.div1{
+    padding-top: 25vh;
+    padding-left: 10vw;
+    width: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+    .div1 {
+        width: 95vw;
+        top: 0%;
+    }
+}
+
+
+.college-image {
+    margin-top: 25vh;
+    margin-left: 50vw;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    .college-image {
+        margin-left: 22vw;
+        margin-top: 50vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .college-image {
+        margin-left: 0vw;
+        margin-top: 68vh;
+    }
+}
+
+.contact-box {
+    width: 50vw;
+    height: 80vh;
+    background-color: #ffffff;
+    opacity: 0.85;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    position: fixed;
+}
+
+form {
+    margin-top: 3.6vh;
+    margin-left: 2.2vw;
+}
+
+.input-field {
+    width: 45vw;
+    height: 6vh;
+    margin-top: 1.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    outline: none;
+}
+
+.text-field {
+    height: 35vh;
+    padding-top: 1vh;
+}
+
+.btn {
+    border-radius: 7px;
+    color: #ffffff;
+    margin-top: 2vh;
+    padding: 1vw;
+    background-color: #00ccaa;
+    font-size: 2vh;
+    border: none;
+    cursor: pointer;
+}
+
+.infront {
+    position: fixed;
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .contact-box {
+        width: 95vw;
+        height: 70vh;
+        top: 62%;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .input-field {
+        width: 90vw;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .text-field {
+        width: 90vw;
+        height: 30vh;
+    }
+}
+
